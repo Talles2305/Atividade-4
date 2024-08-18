@@ -6,13 +6,13 @@
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding: 20px;
   background-color: lightgray;
 }
 
-.principal-nav .menu {
+.menu {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
@@ -20,37 +20,87 @@ header {
   margin: 0;
 }
 
-.principal-nav .menu li {
+.menu li {
   margin: 0 20px;
 }
 
-.principal-nav .menu a {
+.menu a {
   text-decoration: none;
   color: blue;
   padding: 10px 15px;
 }
-
-.principal-nav .menu a:hover {
+.menu a:hover {
   background-color: aqua;
   border-radius: 5px;
 }
 
-.principal-nav .menu a:active {
+.menu a:active {
   background-color: green;
   border-radius: 5px;
 }
 
-.centralizar {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
 main {
-  width: 900px;
-  box-sizing: border-box;
-  background-color: red;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: red;
+  width: 75%;
+  height: 100vh;
 
+}
 
+.conteudo-lado {
+  margin: 20px;
+  width: 40%;
+  background-color: blue;
+}
+
+.conteudo {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  height: 100px;
+  width: 50%;  
+  background-color: yellow;
+}
+footer {
+  background-color: lightgray;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin: 0 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+}
+
+footer a:hover {
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+footer a:active {
+  background-color: red;
+  border-radius: 5px;
+}

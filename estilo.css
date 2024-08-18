@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.principal-nav .menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.principal-nav .menu li {
+  margin: 0 20px;
+}
+
+.principal-nav .menu a {
+  text-decoration: none;
+  color: blue;
+  padding: 10px 15px;
+}
+
+.principal-nav .menu a:hover {
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.principal-nav .menu a:active {
+  background-color: green;
+  border-radius: 5px;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+main {
+  width: 900px;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+
+

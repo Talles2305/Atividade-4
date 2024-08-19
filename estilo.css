@@ -57,7 +57,6 @@ main {
 .conteudo-lado {
   margin: 20px;
   width: 40%;
-  font-size: large;
 }
 
 .conteudo {
@@ -138,5 +137,5 @@ footer a:active {
 }
 
 p {
-  font-size: 17px;
+  font-size: large;
 }

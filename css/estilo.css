@@ -44,6 +44,7 @@ main {
   display: flex;
   width: 100%;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .conteiner {
@@ -55,7 +56,9 @@ main {
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: black;
 }
 
 .conteudo-lado {

@@ -108,6 +108,7 @@ main {
 
 .h1-2 {
   font-family: "Bebas Neue", sans-serif;
+  color: white;
   margin-top: 20px;
 }
 
@@ -136,35 +137,64 @@ p {
   font-size: large;
 }
 
+.conteiner-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #003366; 
+}
+
 .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.formulario input {
-  margin-bottom: 10px;
+  width: 35%;
+  padding: 20px;
+  background-color: lightgray; 
+  border-radius: 10px; 
 }
 
 .formulario .conteudo-lado {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
   width: 100%;
-  height: 60vh;
 }
 
 .formulario .nome-sobrenome {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 60%;
 }
 
-.formulario .check{
-  width: 25%;
+.formulario .check {
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
+  width: 60%;
+}
+
+.formulario input, .formulario select, .formulario textarea{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formulario button {
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: orange;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%; 
+  margin-top: 20px;
+}
+
+.formulario button:hover {
+  background-color: green;
+  transition: 0.3s;
 }
 
 .coment {

@@ -181,11 +181,10 @@ p {
 }
 
 .formulario button {
-  margin: 0 auto;
   padding: 10px 20px;
   border: none;
-  background-color: orange;
-  color: black;
+  background-color: darkgreen;
+  color: wheat;
   font-size: 16px;
   border-radius: 5px;
   width: 20%; 
@@ -193,7 +192,7 @@ p {
 }
 
 .formulario button:hover {
-  background-color: green;
+  background-color: #003366;
   transition: 0.3s;
 }
 
@@ -205,19 +204,6 @@ textarea {
   height: 100px;
 }
 
-.formulario button {
-  padding: 10px 20px;
-  border: none;
-  background-color: orange;
-  color: black;
-  font-size: 16px;
-  border-radius: 5px;
-}
-
-.formulario button:hover {
-  background-color: green;
-  transition: 0.3s;
-}
 
 footer {
   background-color: black;
